@@ -1,0 +1,117 @@
+.container-main {
+  width: 1170px;
+  padding: 0;
+}
+
+.container-middle {
+  width: 1050px;
+  padding: 0;
+}
+
+.container-small {
+  width: 980px;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+#header {
+  background-color: rgba(255, 195, 139, 0.05);
+}
+
+#header .container-main::before {
+  content: "";
+  width: 55%;
+  height: 39%;
+  background-color: #FF926B;
+  display: inline-block;
+  position: absolute;
+  z-index: -1;
+  top: 0;
+  right: -119px;
+}
+
+#header .container-main {
+  position: relative;
+  margin: 0 auto;
+  padding-top: 40px;
+}
+
+#header .container-main .menu {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 226px;
+}
+
+#header .container-main .menu .icon span {
+  font-size: 34px;
+  font-weight: 700;
+  line-height: 100%;
+  color: #1F1F33;
+}
+
+#header .container-main .menu nav ul li {
+  display: inline-block;
+  margin: 10px 50px 0 0;
+}
+
+#header .container-main .menu nav ul li a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  color: #1F1F33;
+}
+
+#header .container-main .menu nav ul li:last-child {
+  margin-right: 0;
+}
+
+#header .container-main .information {
+  position: relative;
+}
+
+#header .container-main .information h1 {
+  font-size: 52px;
+  font-weight: 500;
+  line-height: 64px;
+  color: #1F1F33;
+  margin-bottom: 30px;
+}
+
+#header .container-main .information p {
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 100%;
+  color: #1F1F33;
+  margin-bottom: 50px;
+}
+
+#header .container-main .information a {
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 100%;
+  color: white;
+  background-color: #FF926B;
+  padding: 17px 40px;
+  border-radius: 5px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+#header .container-main .information #downward-arrow {
+  -webkit-transform: translate(-96px, 126px);
+          transform: translate(-96px, 126px);
+}
+
+#header .container-main .information #main-img {
+  position: absolute;
+  top: -179px;
+  right: -119px;
+}
+/*# sourceMappingURL=style.css.map */
