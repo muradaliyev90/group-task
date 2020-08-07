@@ -17,101 +17,70 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
-#header {
-  background-color: rgba(255, 195, 139, 0.05);
+.container-small {
+  margin: auto;
 }
 
-#header .container-main::before {
-  content: "";
-  width: 55%;
-  height: 39%;
-  background-color: #FF926B;
+.container-small > div {
   display: inline-block;
-  position: absolute;
-  z-index: -1;
-  top: 0;
-  right: -119px;
+  padding-right: 168px;
+  margin-top: 80px;
+  box-sizing: border-box;
+  transition: 0.3s;
+  cursor: pointer;
 }
 
-#header .container-main {
-  position: relative;
-  margin: 0 auto;
-  padding-top: 40px;
+.container-small > div:hover {
+  transition: 0.1;
+  transform: scale(1.1);
 }
 
-#header .container-main .menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  margin-bottom: 226px;
+.container-small > div > h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: #eb6383;
+  margin-top: 17px;
 }
 
-#header .container-main .menu .icon span {
-  font-size: 34px;
-  font-weight: 700;
-  line-height: 100%;
-  color: #1F1F33;
+.container-small > div > p {
+  margin-top: 10px;
 }
 
-#header .container-main .menu nav ul li {
-  display: inline-block;
-  margin: 10px 50px 0 0;
+.container-small > #last {
+  padding-right: 0;
 }
 
-#header .container-main .menu nav ul li a {
+.container-middle > #my-carousel {
+  background: rgba(235, 99, 131, 0.15);
+  border-radius: 10px;
+  margin-top: 120px;
+}
+
+.container-middle > #my-carousel > div {
+  text-align: center;
+}
+
+.container-middle > #my-carousel > div .slider-image {
+  padding-top: 50px;
+  width: 100px;
+  margin: auto;
+  margin-bottom: 40px;
+}
+
+.container-middle > #my-carousel > div p {
+  font-weight: bold;
+  font-size: 21px;
+  line-height: 30px;
+  text-align: center;
+  font-weight: bold;
+  padding: 0 150px 0 150px;
+}
+
+.container-middle > #my-carousel > div span {
+  font-weight: 500;
   font-size: 18px;
-  font-weight: 500;
-  line-height: 100%;
-  color: #1F1F33;
-}
-
-#header .container-main .menu nav ul li:last-child {
-  margin-right: 0;
-}
-
-#header .container-main .information {
-  position: relative;
-}
-
-#header .container-main .information h1 {
-  font-size: 52px;
-  font-weight: 500;
-  line-height: 64px;
-  color: #1F1F33;
-  margin-bottom: 30px;
-}
-
-#header .container-main .information p {
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 100%;
-  color: #1F1F33;
-  margin-bottom: 50px;
-}
-
-#header .container-main .information a {
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 100%;
-  color: white;
-  background-color: #FF926B;
-  padding: 17px 40px;
-  border-radius: 5px;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
-}
-
-#header .container-main .information #downward-arrow {
-  -webkit-transform: translate(-96px, 126px);
-          transform: translate(-96px, 126px);
-}
-
-#header .container-main .information #main-img {
-  position: absolute;
-  top: -179px;
-  right: -119px;
+  line-height: 22px;
+  text-align: center;
+  margin-bottom: 45px;
 }
 /*# sourceMappingURL=style.css.map */
